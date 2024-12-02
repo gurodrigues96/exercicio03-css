@@ -1,8 +1,7 @@
-/* Importação de uma fonte não nativa */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap');
 
 body {
-    font-family: Roboto, Arial, sans-serif; /* Fonte principal */
+    font-family: Roboto, Arial, sans-serif; /* Fonte principal do projeto */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -18,7 +17,7 @@ header {
 
 header .logo h1 {
     margin: 0;
-    font-family: Poppins, sans-serif; /* Segunda fonte */
+    font-family: Poppins, sans-serif; /* Fonte secundária do projeto */
     font-size: 2em;
 }
 
@@ -71,7 +70,7 @@ main ul {
 
 main ul li {
     margin: 10px 0;
-    font-family: 'Arial', sans-serif; /* Terceira fonte */
+    font-family: 'Arial', sans-serif; /* Fonte terciária do projeto */
 }
 
 main ul li ul {
@@ -85,7 +84,6 @@ iframe {
     border-radius: 8px;
 }
 
-/* Pseudo-classe para botões */
 button {
     background: #333;
     color: #fff;
@@ -98,11 +96,11 @@ button {
 }
 
 button:hover {
-    background: #ff6347; /* Cor de destaque */
+    background: #ff6347;
 }
 
 footer {
-    background: #222; /* Cor terciária */
+    background: #222;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -110,14 +108,13 @@ footer {
     font-size: 0.9em;
 }
 
-/* Centralização do site */
+/* Centralização do projeto */
 body > header,
 body > footer {
     max-width: 960px;
     margin: 0 auto;
 }
 
-/* Conteúdo lado a lado */
 main .side-by-side {
     display: flex;
     justify-content: space-between;
