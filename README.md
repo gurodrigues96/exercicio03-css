@@ -1,2 +1,4 @@
 # exercicio03-css
- Atividade CSS
+Autor: Gustavo Rodrigues de Oliveira
+
+Descrição: Aprofundando nos conhecimentos da linguagem CSS.
