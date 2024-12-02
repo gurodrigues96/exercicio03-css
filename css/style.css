@@ -1,0 +1,142 @@
+/* Importação de uma fonte não nativa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, Arial, sans-serif; /* Fonte principal */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0710a; /* Cor de fundo */
+}
+
+header {
+    background: #333; /* Cor primária */
+    color: #fff; /* Cor secundária */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-family: Poppins, sans-serif; /* Segunda fonte */
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Efeito de transição */
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Pseudo-classe com uma cor de destaque */
+}
+
+main {
+    max-width: 960px; /* Centralizar e limitar a largura */
+    margin: 20px auto;
+    background: #fff; /* Fundo branco para contraste */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+main ul {
+    text-align: left; /* Alinhar lista à esquerda */
+    margin: 20px 0;
+}
+
+main ul li {
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif; /* Terceira fonte */
+}
+
+main ul li ul {
+    margin-left: 20px;
+}
+
+iframe {
+    margin: 20px auto;
+    display: block;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Pseudo-classe para botões */
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff6347; /* Cor de destaque */
+}
+
+footer {
+    background: #222; /* Cor terciária */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+/* Centralização do site */
+body > header,
+body > footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Conteúdo lado a lado */
+main .side-by-side {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .side-by-side > div {
+    flex: 1;
+    min-width: 250px;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+main .side-by-side img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
